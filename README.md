@@ -1,0 +1,3 @@
+# flush-cache
+级联更新redis缓存
+现在依赖于Canal组件与Kafka，由Canal伪装成mysql，把binlog的变更信息推送到kafka，应用程序拿到kafka的消息进行级联更新缓存，
